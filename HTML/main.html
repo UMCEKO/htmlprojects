@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+   
+<head>
+    <title>D.E.U. Bilisim Servisleri</title>
+    <style type="text/css">
+            #frame{
+                border: 1cm;
+            }
+            #grad{
+                background-image: linear-gradient(to right,rgb(12, 50, 83),rgb(49, 107, 161),rgb(12, 50, 83));
+                height: 60px;
+                opacity: 90%;  
+                  
+            }
+            #bgcolor1{background-color: #ffcc00;
+            }
+            #bgcolor2{background-color: black;
+            }
+    </style> 
+</head>
+<frameset rows="60px,4px,*" frameborder=0 >
+    <frame id="grad" src="frame1.html" noresize  /> </frame>
+    <frame id="bgcolor1" src="frame2.html" noresize /> </frame>
+    <frameset cols="330px,*">
+        <frame src="frame3.html"/>
+        <frame src="frame4.html"/>
+    </frameset>
+</frameset>
+<frameset cols="25%,75%">
+    <frame id="bgcolor2" src="frame3.html"/>
+    <frame src="frame4.html"/>
+</frameset>
+<body>
+
+</body>
+</html>

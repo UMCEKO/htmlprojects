@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style type="text/css">
+        #darkblue{color:darkblue;
+        width: 90px;}
+        #darkred{color: darkred;}
+        .button1{
+            background-color:#284B93;
+            font-family: Verdana;
+            border: 0cm;
+            color: white;
+            font-weight: bold;
+            font-size: 11px;
+            width: 90px;
+            height: 20px;
+            text-align: center;
+            margin-left: 30px;
+        }
+        .button1:active{
+            color: #0c1b38;
+        }
+        .button2{
+            appearance: button;
+            -moz-appearance: button;
+            -webkit-appearance: button;
+            height: 121px;
+            width: 300px;
+            border-style: none;
+            background-image: url("https://debis.deu.edu.tr/bek-kalite/debis_sorun_cozme.jpg");
+        }
+        .button2:hover{
+            cursor: pointer;
+        }
+        input,select{
+            border-color: #ffcc00;
+            border-style: solid;
+            border-width: 2px;
+        }
+        table{
+            background-color: rgba(199, 199, 199, 0.411);
+            font-size: 11px;
+            font-family: Verdana;
+            font-weight:900;
+        }
+        p1{
+            
+            font-size:15px;
+            font-weight: bold;}
+
+    </style>
+</head>
+<body>
+    <p1>.::. D.E.U. Bilisim Servisleri</p1>
+    <div>
+    <table>
+        <tr><td>Kullanıcı Adınız</td></tr>
+        <tr><td><input type="text"></td><td id="darkred">&nbsp;&nbsp;&nbsp;&nbsp;&commat;&nbsp<select id="darkblue" name="mail" size="1"><option >deu.edu.tr</option><option>ogr.deu.edu.tr</option></select></td></tr>
+        <tr><td>Sifreniz</td></tr>
+        <tr><td><input type="password"></td><td><input type="submit" class="button1" size="" value="Gönder"</td></tr>
+        <td colspan="2"><a class="button2" target="_blank" href="https://debishs.deu.edu.tr/"></a></td>
+
+    </table>
+    </div>  
+</body>
+</html>
